@@ -1,11 +1,11 @@
+// Get the current year
 const currentYear = new Date().getFullYear();
-const currentMonth = new Date().getMonth();
-const currentDay = new Date().getDate();
 
-let lastModified = Date(document.lastModified);
+// Set the current year in the first paragraph of the footer
+document.getElementById('copyright-year').textContent = `© ${currentYear}`;
 
-const footer = document.querySelector('footer');
-//${currentDay}/${currentMonth}/${currentYear}`;
-const copyrightParagraph = document.createElement('p');
-copyrightParagraph.textContent = `Last Modified : ${lastModified}`;
-footer.appendChild(copyrightParagraph);
+// Get the last modified date of the document
+const lastModifiedDate = document.lastModified;
+
+// Set the last modified date in the second paragraph of the footer
+document.getElementById('last-modified').textContent = `Last Modified: ${lastModifiedDate}`;
