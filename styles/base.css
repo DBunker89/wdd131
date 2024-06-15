@@ -76,6 +76,21 @@ main {
     font-family: "Roboto", sans-serif;
 }
 
+aside {
+    background-color: #ffffff;
+    border: solid 1px #000000;
+    border-radius: 10px;
+    padding: 1rem;
+    grid-column: 2 / 3;
+}
+
+aside h2 {
+    text-align: center;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    padding: 7px;
+}
+
 footer {
     background-color: #6208b1;
     text-align: center;
