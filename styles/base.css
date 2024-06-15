@@ -76,3 +76,17 @@ main {
     max-width: 1900px;
     font-family: "Roboto", sans-serif;
 }
+
+footer {
+    background-color: #1b659e;
+    text-align: center;
+    padding: 20px 0;
+    color: #ffffff
+}
+
+footer .footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
