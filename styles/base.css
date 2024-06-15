@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 
 :root {
     --primary-color: #6208b1;
     --secondary-color: #E3DD6C;
     --accent1-color: #ae0808;
     --accent2-color: #1379ac;
-
-    --heading-font: "Truculenta", sans-serif;
-    --paragraph-font: "Ojuju", sans-serif;
 
     --nav-background-color:#b7d1ec;
     --nav-link-color:#220d7d;
@@ -92,5 +87,5 @@ main {
     align-items: center;
     align-tracks: center;
     max-width: 1900px;
-    font: var(--paragraph-font);
+    font-family: "Roboto", sans-serif;
 }
