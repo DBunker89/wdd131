@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
     --blue: rgb(37, 94, 138);
     --red: rgb(231, 10, 10);
@@ -76,9 +78,8 @@
     text-decoration: none;
   }
   
-  nav a:hover {
-    color: white;
-    background-color: var(--red);
+  nav:hover {
+    color: rgb(252, 2, 2);
     font-weight: 600;
   }
   
