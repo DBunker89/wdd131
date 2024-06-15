@@ -6,8 +6,10 @@
   }
   
   * {
-    margin: 0;
-  }
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
   .me img {
     margin: 20px;
@@ -20,18 +22,27 @@
   body {
     line-height: 1.5;
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     color: black;
   }
   
   header {
-    background-color: var(--blue);
-    color: white;
-  }
+	background-color: #bbb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header,
+main {
+	margin: 0 auto;
+}
   
   h1 {
     background-color: var(--blue);
-    font-size: 1.4rem;
+    font-size: 2rem;
     padding: 1rem;
     text-align: center;
     font-weight: 400;
@@ -60,27 +71,26 @@
   }
   
   nav {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    background-color: #3C5B6F;
-    grid-column: 1 / 4;
-  }
-  
-  nav a {
-    flex: 1 1 100%;
-    display: block;
-    font-size: 1rem;
-    text-align: center;
-    padding: 0.5rem;
-    color: white;
-    text-decoration: none;
-  }
-  
-  nav :hover {
-    color: rgb(252, 2, 2);
-    font-weight: 600;
-  }
+	background-color: #36454f;
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration:overline;
+}
   
   main {
     max-width: 900px;
