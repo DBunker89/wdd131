@@ -1,24 +1,12 @@
 
-:root {
-    --primary-color: #6208b1;
-    --secondary-color: #E3DD6C;
-    --accent1-color: #ae0808;
-    --accent2-color: #1379ac;
-
-    --nav-background-color:#b7d1ec;
-    --nav-link-color:#220d7d;
-    --nav-hover-link-color:#ff0004;
-    --nav-hover-background-color:#fcf9fe;
-}
-
 nav {
-    background-color: var(--primary-color);
+    background-color: #6208b1;
     margin: 0 auto;
     max-width: 800px;
 }
 
 nav a { 
-    color: var(--secondary-color);
+    color: #E3DD6C;
     display: block;
     text-align: center;
     padding: 1rem;
@@ -26,7 +14,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--nav-hover-link-color);
+    color: #ff0004;
 }
 
 .active {
@@ -46,8 +34,8 @@ nav a:hover {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    background-color: #E3DD6C;
+    color: #6208b1;
     text-align: center;
     border-radius: 10px;
 }
@@ -74,12 +62,11 @@ footer {
 .card h1{
     color: #2b2400;
     border-bottom: 1px solid #2b2400;
-    font: var(--heading-font);
 }
 
 div .links {
     background-color: #b7d1ec;
-    color: var(--secondary-color);
+    color: #E3DD6C;
 }
 
 main {
