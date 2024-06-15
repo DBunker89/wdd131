@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <script src="getdates.js" defer></script>
     </head>
+    
     <body>
         <header><h1>WDD 131 - Dynamic Web Fundamentals Dylan Bunker</h1>
             <nav>
@@ -21,27 +22,41 @@
                 </ul>
             </nav>
         </header>
+
         <main>
             <section class="card">
-               <ul>
-                   <li><a href="#">Resource 1</a></li>
-                   <li><a href="#">Resource 2</a></li>
-                   <li><a href="#">Resource 3</a></li>
-               </ul>
+                <h2>About Me</h2>
+                <div class="me">
+                    <img src="images/profile.webp" alt="Profile">
+                    <h3>Who am I?</h3>
+                    <p>My name is Dylan Bunker. I live in Las Vegas, NV where I was born and raised. I am currently a student at BYU-Idaho Online.</p>
+                </div>
+                <div class="state">
+                    <h3>Nevada</h3>
+                    <figure>
+                        <img src="images/NVFlag.jpg" alt="Flag of Nevada" width="200">
+                        <figcaption>Official Flag of Nevada</figcaption>
+                    </figure>
+                    <p>Nevada is known as the "Silver State" due to the significant role silver mining has played in its history. It is also referred to as the "Battle Born State" because it achieved statehood during the Civil War. The largest city in Nevada is Las Vegas, known for its nightlife centered around 24-hour casinos and other entertainment options.</p>
+                </div>
             </section>
-       
+
             <section class="card">
-               <ul>
-                   <li><a href="#">Resource 1</a></li>
-                   <li><a href="#">Resource 2</a></li>
-                   <li><a href="#">Resource 3</a></li>
-               </ul>
+                <h2>Web Dev Resources</h2>
+                <div class="links">
+                    <ul>
+                        <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+                        <li><a href="https://www.w3schools.com" target="_blank">W3 Schools</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web">MDN Docs</a></li>
+                    </ul>
+                </div>
             </section>
-          </main>
-          <footer>
-            <p>&copy; <span id="currentyear"></span> Dylan Bunker - Las Vegas, NV - United States of America</p>
-            <p id="lastModified"></p>
-          </footer>
+        </main>
+    
+        <footer>
+            <p><span id="currentYear"></span> Dylan Bunker - Las Vegas, NV</p>
+            <p class="highlight" id="lastModified">Last Modified</p>
+        </footer>
+        
     </body>
 </html>
-git init

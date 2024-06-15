@@ -1,5 +1,3 @@
-// Dynamically set current year
-document.getElementById('currentyear').textContent = new Date().getFullYear();
-
-// Dynamically set last modified date
-document.getElementById('lastModified').textContent = "Last modified: " + document.lastModified;
+let d = new Date();
+document.getElementById("currentYear").innerHTML = `&copy;${d.getFullYear()}`;
+document.querySelector('#lastModified').textContent = `Last Modification: ${document.lastModified}`;
