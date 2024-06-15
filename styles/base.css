@@ -67,8 +67,7 @@
     grid-column: 1 / 4;
   }
   
-  nav a,
-  nav a:visited {
+  nav a {
     flex: 1 1 100%;
     display: block;
     font-size: 1rem;
@@ -78,13 +77,13 @@
     text-decoration: none;
   }
   
-  nav a:hover {
+  nav :hover {
     color: rgb(252, 2, 2);
     font-weight: 600;
   }
   
   main {
-    max-width: 960px;
+    max-width: 900px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
