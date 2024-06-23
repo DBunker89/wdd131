@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Temple Album</title>
+    <meta name="description" content="An album of temple pictures from around the world">
+    <meta name="author" content="Dylan Bunker">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <script src="scripts/temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Old</a>
+            <a href="">New</a>
+            <a href="">Large</a>
+            <a href="">Small</a>
+        </nav>
+        <button id="menu"></button>
+    </header>
+    <main>
+        <h2 id="selection">Home</h2>
+        <div id="gallery">
+            <figure>
+                <img src="images/LVTemple.webp" alt="Las Vegas, NV Temple" class="flag">
+                <figcaption>Las Vegas, NV Temple</figcaption> 
+            </figure>
+            <figure>
+                <img src="images/BelemBrazilTemple.webp" alt="Belem, Brazil Temple" class="flag">
+            <figcaption>Belem, Brazil Temple</figcaption> 
+            </figure>
+            <figure>
+                <img src="images/KonaHawaiiTemple.webp" alt="Kona, HI Temple" class="flag">
+            <figcaption>Kona, HI Temple</figcaption> 
+            </figure>
+            <figure>
+                <img src="images/LisbonPortugalTemple.webp" alt="Lisbon, Portugal Temple" class="flag">
+            <figcaption>Lisbon, Portugal Temple</figcaption> 
+            </figure>
+            <figure>
+                <img src="images/LondonEnglandTemple.webp" alt="London, England Temple" class="flag">
+            <figcaption>London, England Temple</figcaption> 
+            </figure>
+            <figure>
+                <img src="images/LosAngelesTemple.webp" alt="Los Angeles, CA Temple" class="flag">
+            <figcaption>Los Angeles, CA Temple</figcaption> 
+            </figure>
+            <figure>
+                <img src="images/MadridSpainTemple.webp" alt="Madrid, Spain Temple" class="flag">
+            <figcaption>Madrid, Spain Temple</figcaption> 
+            </figure>
+            <figure>
+                <img src="images/OkinawaJapanTemple.webp" alt="Okinawa, Japan Temple" class="flag">
+            <figcaption>Okinawa, Japan Temple</figcaption> 
+            </figure>
+            <figure>
+                <img src="images/SaltLakeTemple.webp" alt="Salt Lake City, UT Temple" class="flag">
+            <figcaption>Salt Lake City, UT Temple</figcaption> 
+            </figure>
+        </div>
+        
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Dylan Bunker - Temples of the World</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
