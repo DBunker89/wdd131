@@ -90,7 +90,17 @@ footer {
     position: fixed;
     right: .7em;
     top: 1.6em;
+    border: 1px solid #002e5b;
     border-radius: .1em;
+}
+
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "✕";
 }
 
 nav, a{
@@ -101,14 +111,19 @@ nav a {
     padding: 1em;
     flex: 1 1 100%;
     text-decoration: none;
+    color: #fff;
     border-bottom: 3px solid var(--primary-color);
+}
+nav a:hover {
+    border-bottom: 3px solid yellow;
+    font-weight: 700;
+    border-radius: 0 0 .5em .5em;
 }
 
 nav {
     display: flex;
-    font-weight: 700;
     flex-direction: column;
-    background-color: var(--primary-font-color);
+    background-color: #013468;
     text-align: center;
     position: fixed;
     right: 1em;
@@ -120,15 +135,24 @@ nav {
 nav a {
     display: none;
     font-weight: 500;
-    color: var(--primary-color);
+    color: var(--primary-font);
     text-decoration: none;
     border-radius: 0 0 .5em .5em;
 }
 
+nav a.active {
+    color: #ffca38 ;
+    text-decoration: underline 2px;
+}
+
 nav a:hover {
-    background-color: rgb(249, 3, 3);
-    color: var(--primary-font-color);
+    background-color: white;
+    color: var(--primary-color);
     font-weight: 800;
     border-radius: 0 0 .5em .5em;
     
+}
+
+.open, .open a {
+    display: block;
 }
