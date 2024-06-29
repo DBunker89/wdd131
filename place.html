@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Las Vegas, NV, USA - City - Temperature</title>
+    <meta name="description" content="A page about the city of Las Vegas, NV, USA, with meteorological and general information; also featuring pictures of the world famous Las Vegas Strip.">
+    <meta name="author" content="Dylan Bunker">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Las Vegas, NV - USA</h1>
+    </header>
+    <main>
+        <picture>
+            <source media="(min-width: 1000px)" srcset="images/LVStrip.webp">
+            <source media="(min-width: 500px )" srcset="images/LVStrip.webp">
+            <img src="images/LVStrip.webp" alt="A photo of the world famous Las Vegas Strip in Las Vegas, NV, USA">
+        </picture>
+        <section class="card data">
+            <h2>Data</h2>
+            <table>
+                <tr>
+                    <th>Country:</th>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <th>Area:</th>
+                    <td>3,797,000 mi²</td>
+                </tr>
+                <tr>
+                    <th>Population:</th>
+                    <td>333,300,000 (2022)</td>
+                </tr>
+                <tr>
+                    <th>State:</th>
+                    <td>Nevada</td>
+                </tr>
+                <tr>
+                    <th>City:</th>
+                    <td>Las Vegas</td>
+                </tr>
+                <tr>
+                    <th>Founded:</th>
+                    <td>May 15th, 1905</td>
+                </tr>
+                <tr>
+                    <th>Languages:</th>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <th>Currency:</th>
+                    <td>USD</td>
+                </tr>
+                <tr>
+                    <th>Time Zone:</th>
+                    <td>Pacific Daylight Time</td>
+                </tr>
+                <tr>
+                    <th>Area Code:</th>
+                    <td>+1 (702)</td>
+                </tr>
+            </table>
+        </section>
+        <section class="card temp">
+            <h2>Weather</h2>
+            <img src="images/WeatherIcon.svg" alt="Weather Icon" width="100">
+            <table>
+                <tr>
+                    <th>Temperature:</th>
+                    <td><span id="current-temp">104</span>&deg; F</td>
+                </tr>
+                <tr>
+                    <th>Conditions:</th>
+                    <td>Sunny</td>
+                </tr>
+                <tr>
+                    <th>Wind:</th>
+                    <td><span id="windspeed">22</span> mph</td>
+                </tr>
+                <tr>
+                    <th>Windchill:</th>
+                    <td><span id="windchill"></span></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Dylan Bunker | Las Vegas, NV, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
