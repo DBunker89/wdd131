@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Jackpot Detailing</title>
+    <meta name="description" content="A page describing the company that contains a simple form to submit feedback.">
+    <meta name="author" content="Dylan Bunker">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/menu.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Jackpot Detailing</h1>
+        <button id="menu"></button>
+        <nav>
+            <a href="index.html" >Home</a>
+            <a href="about.html" class="active">About Us</a>
+            <a href="form.html">Services</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <img src="images/customer.jpeg"height="700px" wialt="Blades Tree Removal">
+            </picture>
+            <div class="calltoaction">
+                <h2>Contact Us</h2>
+            </div>
+        </div>
+        <section>
+            <h2>Thank you for trusting our work! </h2>
+            <p> Send us a message at +1(702)812-0864 or send us an email.</p>
+        </section>
+        <h2>Send your Email Here:</h2>
+        <form  method="get" action="thanks.html" class="wf">
+            <fieldset>
+                <legend>User Information</legend>
+                <label>First Name <input type="text" name="fname"></label>
+                <label>Last Name <input type="text" name="lname"></label>
+                <label>Email <input type="email" name="email" required placeholder="someone@mail.com"></label>
+            </fieldset>
+            <fieldset>
+                <legend>E-mail</legend>
+                <textarea name="feedback" id="feednack" placeholder="write your E-mail here..." rows="6"></textarea>
+            </fieldset>
+            <input type="submit" value="Send E-mail">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Jackpot Detailing | Las Vegas, NV</p>
+            <p>Dylan Bunker</p>
+    </footer>
+</body>
+</html>
