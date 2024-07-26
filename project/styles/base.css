@@ -163,7 +163,7 @@ nav, a{
 
 nav a:hover {
     border-bottom: 3px solid #e0afa0;
-    font-weight: 700PX;
+    font-weight: 700;
     border-radius: 0 0 .5em .5em;
 }
 
